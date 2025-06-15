@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> AI Tarjimon</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2875/2875427.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div style="text-align: center; margin-top: 20px;">
+        <h1 style="display: inline-flex; align-items: center; gap: 10px;">
+          <img src="https://cdn-icons-png.flaticon.com/512/2875/2875427.png" alt="Translate Icon" width="32" height="32">
+          AI Tarjimon
+        </h1>
+      </div>      
+    
+
+    <div class="language-options">
+      <label><input type="radio" name="direction" value="uz-en" checked> O‘zbek ➜ Ingliz</label>
+      <label><input type="radio" name="direction" value="en-uz"> Ingliz ➜ O‘zbek</label>
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="inputWord" placeholder="So‘z yozing yoki ayting..." />
+      <button id="micBtn">🎤</button>
+    </div>
+
+    <button id="translateBtn">Tarjima qilish</button>
+    <div id="result">Tarjima shu yerda chiqadi</div>
+    <button id="speakBtn">🔊 O‘qib ber</button>
+    <footer style="text-align:center; margin-top: 40px; font-size: 14px; color: gray;">
+      Muallif: <strong>Isomiddin Xakimjanov</strong>
+    </footer>
+  </div>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

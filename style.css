@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #fff3e0);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    padding-top: 30px;
+  }
+  
+  .container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  h1 {
+    color: #00796b;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .language-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #b2dfdb;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 15px;
+    background: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #004d40;
+  }
+  
+  #result {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #004d40;
+    min-height: 24px;
+  }
+  
+  #historyList {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #micBtn {
+    background: #ff7043;
+    padding: 0 10px;
+  }
+  
+  #speakBtn {
+    background: #2196f3;
+    margin-top: 10px;
+  }
+  
