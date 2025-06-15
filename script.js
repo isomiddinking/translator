@@ -79,8 +79,8 @@ function speakTranslation() {
     
     // Til sozlamalari
     utterance.lang = toLang === "en" ? "en-US" : "uz-UZ";
-    utterance.rate = 0.2;  // Tezlik
-    utterance.pitch = 0.5; // Balandlik
+    utterance.rate = 0.6;  // Tezlik
+    utterance.pitch = 0.8; // Balandlik
 
     // Ovozlarni olish
     function speakWithVoice() {
